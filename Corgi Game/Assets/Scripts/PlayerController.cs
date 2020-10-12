@@ -9,13 +9,14 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     theRB = GetComponent<Rigidbody>();
-    
+        // Grabs the Player Rigidbody, this is attached from the Unity side
+        theRB = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-         theRB.velocity = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, theRB.velocity.y, Input.GetAxis("Vertical") * moveSpeed);
+        
+        theRB.velocity = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, theRB.velocity.y, Input.GetAxis("Vertical") * moveSpeed);
     }
 }
