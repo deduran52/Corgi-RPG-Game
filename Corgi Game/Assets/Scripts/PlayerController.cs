@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody theRB;
+    public float jumpForce;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +19,10 @@ public class PlayerController : MonoBehaviour
     {
         
         theRB.velocity = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, theRB.velocity.y, Input.GetAxis("Vertical") * moveSpeed);
+
+        if(Input.GetButtonDown("Jump"))
+        {
+            theRB.velocity = new Vector3(theRB.velocity.x, jumpForce,theRB.velocity.z);
+        }
     }
 }

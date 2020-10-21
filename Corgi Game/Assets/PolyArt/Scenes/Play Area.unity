@@ -4468,6 +4468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   theRB: {fileID: 0}
+  jumpForce: 10
 --- !u!54 &624539267
 Rigidbody:
   m_ObjectHideFlags: 0
