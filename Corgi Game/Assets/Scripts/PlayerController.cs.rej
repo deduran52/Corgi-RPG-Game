@@ -1,0 +1,9 @@
+diff a/Corgi Game/Assets/Scripts/PlayerController.cs b/Corgi Game/Assets/Scripts/PlayerController.cs	(rejected hunks)
+@@ -29,6 +29,7 @@
+         }
+         else if ((Input.GetButtonDown("Vertical")) && (Input.GetAxis("Vertical") > 0)) {
+             // random test here
++            anim.SetFloat("speed", (Mathf.Abs(Input.GetAxis("Vertical"))+ Mathf.Abs(Input.GetAxis("Horizontal"))));
+         }
+         //anim.SetFloat("speed", (Mathf.Abs(Input.GetAxis("Vertical"))+ Mathf.Abs(Input.GetAxis("Horizontal"))));
+         Debug.Log(Mathf.Abs(Input.GetAxis("Vertical")));
