@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using UnityEngine;
 
 namespace BrokenVector.LowPolyFencePack
 {
@@ -12,16 +15,29 @@ namespace BrokenVector.LowPolyFencePack
     {
 
         private DoorController doorController;
-
+        private BoxCollider Box;
+        
         void Awake()
         {
             doorController = GetComponent<DoorController>();
+            Box = GetComponent<BoxCollider>();
         }
 
 	    void OnMouseDown()
 	    {
 	        doorController.ToggleDoor();
-	    }
+
+            if (Box.enabled == true)
+            {
+                Box.enabled = false;
+            }
+            if (Box.enabled == false)
+            {
+                Box.enabled = true;
+                doorController.ToggleDoor();
+            }
+            Debug.Log(Box.enabled);
+        }
 
 	}
 }
