@@ -27,10 +27,11 @@ public class PlayerController : MonoBehaviour
         {
             theRB.velocity = new Vector3(theRB.velocity.x, jumpForce,theRB.velocity.z);
         }
-        else if (Input.GetButtonDown("Forward")) {
-            anim.
+        else if ((Input.GetButtonDown("Vertical")) && (Input.GetAxis("Vertical") > 0)) {
+            // random test here
+            anim.SetFloat("speed", (Mathf.Abs(Input.GetAxis("Vertical"))+ Mathf.Abs(Input.GetAxis("Horizontal"))));
         }
-        anim.SetFloat("speed", (Mathf.Abs(Input.GetAxis("Vertical"))+ Mathf.Abs(Input.GetAxis("Horizontal"))));
-        Debug.Log("speed");
+        //anim.SetFloat("speed", (Mathf.Abs(Input.GetAxis("Vertical"))+ Mathf.Abs(Input.GetAxis("Horizontal"))));
+        Debug.Log(Mathf.Abs(Input.GetAxis("Vertical")));
     }
 }
