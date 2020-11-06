@@ -4,29 +4,60 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
-    public Rigidbody theRB;
-    public float jumpForce;
 
-    public Animator anim;
+    public float velocity =5;
+    public float turnSpeed = 10;
+
+    Vector2 input;
+    float angle;
+
+    Quaternion targetRotation;
+    Transform cam;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        // Grabs the Player Rigidbody, this is attached from the Unity side
-        theRB = GetComponent<Rigidbody>();
+        cam = Camera.main.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
+        GetInput();
         
-        theRB.velocity = new Vector3(Input.GetAxis("Horizontal") * moveSpeed, theRB.velocity.y, Input.GetAxis("Vertical") * moveSpeed);
+        if(Mathf.Abs(input.x) < 1 && Mathf.Abs(input.y) < 1) return;
 
-        if(Input.GetButtonDown("Jump"))
-        {
-            theRB.velocity = new Vector3(theRB.velocity.x, jumpForce,theRB.velocity.z);
-        }
-        anim.SetFloat("speed", (Mathf.Abs(Input.GetAxis("Vertical"))+ Mathf.Abs(Input.GetAxis("Horizontal"))));
+        CalculateDirection();
+        Rotate();
+        Move();
+
     }
+
+    void GetInput()
+    {
+        input.x = Input.GetAxisRaw("Horizontal");
+        input.y = Input.GetAxisRaw("Vertical");
+    }
+
+    void CalculateDirection()
+    {
+        angle = Mathf.Atan2(input.x, input.y);
+        angle = Mathf.Rad2Deg *angle;
+        angle += cam.eulerAngles.y;
+
+    }
+
+    void Rotate()
+    {
+        targetRotation = Quaternion.Euler(0,angle,0);
+        transform.rotation = Quaternion.Slerp(transform.rotation,targetRotation, turnSpeed * Time.deltaTime);
+    }
+
+    void Move()
+    {
+        transform.position += transform.forward * velocity * Time.deltaTime;
+    }
+
+
 }
