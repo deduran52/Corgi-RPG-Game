@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class newMovement : MonoBehaviour {
 
+    // Movement Variables
     public CharacterController controller;
     public Transform cam;
     public float speed = 6;
@@ -20,24 +21,39 @@ public class newMovement : MonoBehaviour {
     float turnSmoothVelocity;
     public float turnSmoothTime = 0.1f;
 
-    // Update is called once per frame
+    // Animation Variables
+    Animator animator;
+    private string currentState;
+
+    // Only runs at the start of launch
+    void Start() {
+        // Getting the animator
+        animator = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame, mostly for movement
     void Update() {
-        //jump
+        //-------------------------------------------------------------------------------
+        //                        Jumping
+        //-------------------------------------------------------------------------------
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0) {
             velocity.y = -2f;
         }
-
         if (Input.GetButtonDown("Jump") && isGrounded){
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
         }
 
-        //gravity
+        //-------------------------------------------------------------------------------
+        //                        Gravity
+        //-------------------------------------------------------------------------------
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        //walk
+        //-------------------------------------------------------------------------------
+        //                        Walk
+        //-------------------------------------------------------------------------------
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
@@ -51,4 +67,20 @@ public class newMovement : MonoBehaviour {
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
     }
+
+    // Function for checking current state of animation
+    void ChangeAnimaitonState(string newState) {
+        // Stop the same animaiton from interrupting itself
+        if(currentState == newState) return;
+
+        // play the animaiton
+        animator.Play(newState);
+
+        // Reassinging the current state
+        currentState = newState;
+    }
+
+
+
+
 } // end of class
