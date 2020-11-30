@@ -4,7 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
+  - Ice
+  - Mud
+  - Water
+  - Boost
+  - ContactRigidbody
+  - Honey
+  - Grass
+  - Gravity modifier
+  - Ledge
+  - WeightRigidbody
   layers:
   - Default
   - TransparentFX
@@ -14,10 +23,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Character
+  - One Way Platform
+  - Dynamic Rigidbody
+  - Trigger
   - 
   - 
   - 
