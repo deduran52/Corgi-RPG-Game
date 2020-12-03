@@ -55,6 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2750169105938585654
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,7 +94,7 @@ GameObject:
   - component: {fileID: 2604934662711577773}
   m_Layer: 8
   m_Name: Capsule Blank Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f199f35221ef584d909e881238cba74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagsAndLayersProfile: {fileID: 0}
+  tagsAndLayersProfile: {fileID: 11400000, guid: 2c0ea488eed10d2408eee51f0e4a944d,
+    type: 2}
   slopeLimit: 60
   stepOffset: 0.5
   stepUpSpeed: 0.5
@@ -148,15 +151,20 @@ MonoBehaviour:
   stepDownSpeed: 0.1
   edgeCompensation: 0
   alwaysNotGrounded: 0
-  verticalAlignmentReference: {fileID: 0}
-  verticalReferenceMode: 1
-  verticalAlignmentDirection: {x: 0, y: 1, z: 0}
+  forceGroundedAtStart: 1
+  verticalAlignmentSettings:
+    alignmentReference: {fileID: 3690873532784470854}
+    referenceMode: 1
+    alignmentDirection: {x: 0, y: 1, z: 0}
   supportDynamicGround: 1
   rotateForwardDirection: 1
   applyWeightToGround: 1
   weightGravity: 9.8
   filterWeightRigidbodiesByTag: 1
+  sizeLerpSpeed: 8
   addExternalVelocity: 0
+  ignoreStaticObstacles: 1
+  ignoreKinematicRigidbodies: 1
 --- !u!1 &6222783623812935289
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +221,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -237,6 +246,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6415588977015373110
 GameObject:
   m_ObjectHideFlags: 0

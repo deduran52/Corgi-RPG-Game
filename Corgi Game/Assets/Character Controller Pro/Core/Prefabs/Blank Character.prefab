@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2604934662711577773}
   m_Layer: 0
   m_Name: Blank Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,6 +69,7 @@ MonoBehaviour:
   stepDownSpeed: 0.1
   edgeCompensation: 0
   alwaysNotGrounded: 0
+  forceGroundedAtStart: 1
   verticalAlignmentSettings:
     alignmentReference: {fileID: 0}
     referenceMode: 1
@@ -78,6 +79,7 @@ MonoBehaviour:
   applyWeightToGround: 1
   weightGravity: 9.8
   filterWeightRigidbodiesByTag: 1
+  sizeLerpSpeed: 8
   addExternalVelocity: 1
   ignoreStaticObstacles: 1
   ignoreKinematicRigidbodies: 1

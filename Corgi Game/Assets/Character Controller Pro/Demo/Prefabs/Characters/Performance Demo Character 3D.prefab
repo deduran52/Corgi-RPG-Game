@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 782706416}
   m_Layer: 8
   m_Name: Performance Demo Character 3D
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,8 +75,9 @@ MonoBehaviour:
   stepDownSpeed: 0.1
   edgeCompensation: 0
   alwaysNotGrounded: 0
+  forceGroundedAtStart: 1
   verticalAlignmentSettings:
-    alignmentReference: {fileID: 0}
+    alignmentReference: {fileID: 1973587181144159882}
     referenceMode: 1
     alignmentDirection: {x: 0, y: 1, z: 0}
   supportDynamicGround: 1
@@ -84,7 +85,10 @@ MonoBehaviour:
   applyWeightToGround: 1
   weightGravity: 9.8
   filterWeightRigidbodiesByTag: 1
+  sizeLerpSpeed: 8
   addExternalVelocity: 0
+  ignoreStaticObstacles: 1
+  ignoreKinematicRigidbodies: 1
 --- !u!114 &1973587181144159887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,16 +165,18 @@ MonoBehaviour:
       deceleration: 5
   verticalMovementParameters:
     useGravity: 1
+    canJump: 1
     jumpApexHeight: 1
     jumpApexDuration: 0.3
     availableNotGroundedJumps: 1
+    canJumpOnUnstableGround: 0
     coyoteTime: 0.1
     unstableJumpMode: 1
     jumpIntertiaMultiplier: 0.25
     jumpReleaseAction: 1
     constantJumpDuration: 0.2
-    jumpPadTag: JumpPad
   crouchParameters:
+    enableCrouch: 1
     heightRatio: 0.75
     speedMultiplier: 0.3
     inputMode: 1
@@ -182,7 +188,7 @@ MonoBehaviour:
   planarSpeedParameter: PlanarSpeed
   horizontalAxisParameter: HorizontalAxis
   verticalAxisParameter: VerticalAxis
-  isCrouchedParameter: IsCrouched
+  heightParameter: Height
 --- !u!114 &1400165589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,6 +371,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -389,6 +396,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1973587181979197634
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +452,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -468,3 +477,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
