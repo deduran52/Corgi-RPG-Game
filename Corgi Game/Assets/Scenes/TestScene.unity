@@ -635,7 +635,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de174a927f9d1a44b933feb53ca447ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runtimeAnimatorController: {fileID: 0}
+  runtimeAnimatorController: {fileID: 9100000, guid: d2197ac0b72dc054fa96f41b126a5b73,
+    type: 2}
   initialVelocity: 12
   duration: 0.4
   movementCurve:
@@ -679,7 +680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3760adb8cf5de1a4483ca19b241e68e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runtimeAnimatorController: {fileID: 0}
+  runtimeAnimatorController: {fileID: 9100000, guid: d2197ac0b72dc054fa96f41b126a5b73,
+    type: 2}
   planarMovementParameters:
     baseSpeedLimit: 6
     runInputMode: 1
@@ -1051,7 +1053,7 @@ MonoBehaviour:
   zoomAxis: Camera Zoom
   characterActor: {fileID: 359697515}
   offsetFromHead: {x: 0, y: 0, z: 0}
-  verticalLerpSpeed: 10
+  verticalLerpSpeed: 50
   cameraMode: 1
   hideBody: 1
   bodyRenderer: {fileID: 4771663344372710685}
