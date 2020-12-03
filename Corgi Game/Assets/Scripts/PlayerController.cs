@@ -36,8 +36,8 @@ public class PlayerController : MonoBehaviour
 
     void GetInput()
     {
-        input.x = Input.GetAxisRaw("Horizontal");
-        input.y = Input.GetAxisRaw("Vertical");
+        input.x = Input.GetAxisRaw("Movement X");
+        input.y = Input.GetAxisRaw("Movement Y");
     }
 
     void CalculateDirection()

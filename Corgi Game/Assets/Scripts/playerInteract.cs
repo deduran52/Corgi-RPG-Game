@@ -19,7 +19,7 @@ public class playerInteract : MonoBehaviour
 
         if (carrying == false)
         {
-            if (Input.GetKeyDown(KeyCode.E) && (guide.transform.position - transform.position).sqrMagnitude < range * range) 
+            if (Input.GetButtonDown("Interact") && (guide.transform.position - transform.position).sqrMagnitude < range * range) 
             {
                 pickup();
                 carrying = true;
