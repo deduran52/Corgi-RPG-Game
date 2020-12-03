@@ -27,12 +27,14 @@ public class playerInteract : MonoBehaviour
         }
         else if (carrying == true)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetButtonDown("Interact"))
             {
                 drop();
                 carrying = false;
             }
         }
+
+
 
     }//end update
 

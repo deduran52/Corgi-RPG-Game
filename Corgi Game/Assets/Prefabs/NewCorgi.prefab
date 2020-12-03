@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 4692531757754625110}
   - component: {fileID: 4692531757754625105}
   m_Layer: 0
-  m_Name: Corgi 1
+  m_Name: NewCorgi
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -393,7 +393,7 @@ Transform:
   m_GameObject: {fileID: 199379862649347116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 4692531759501325980}
   - {fileID: 4692531759043324928}
@@ -451,7 +451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   is2D: 0
-  bodyType: 1
+  bodyType: 0
   bodySize: {x: 0.5, y: 2}
   mass: 50
 --- !u!1 &199381084398314466
@@ -2035,6 +2035,7 @@ GameObject:
   - component: {fileID: 4692531759043325053}
   - component: {fileID: 4692531759043324930}
   - component: {fileID: 4692531759043324931}
+  - component: {fileID: 222037498}
   m_Layer: 0
   m_Name: States
   m_TagString: Untagged
@@ -2063,7 +2064,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4692531759043324929}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 991c552c8efe8914186b0d06951c5a1e, type: 3}
   m_Name: 
@@ -2079,7 +2080,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4692531759043324929}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3760adb8cf5de1a4483ca19b241e68e5, type: 3}
   m_Name: 
@@ -2132,7 +2133,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4692531759043324929}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de174a927f9d1a44b933feb53ca447ff, type: 3}
   m_Name: 
@@ -2170,6 +2171,20 @@ MonoBehaviour:
   forceNotGrounded: 1
   cancelOnContact: 1
   contactVelocityTolerance: 5
+--- !u!114 &222037498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4692531759043324929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e761f05cad77142b84670a0fc7193c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 5
+  turnSpeed: 10
 --- !u!1 &4692531759501325981
 GameObject:
   m_ObjectHideFlags: 0
