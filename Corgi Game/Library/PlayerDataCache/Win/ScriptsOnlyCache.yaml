@@ -1,0 +1,1085 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - BrokenVector.LowPolyFencePack.DoorController
+    - BrokenVector.LowPolyFencePack.DoorToggle
+    - DestroyThis
+    - PauseMenu
+    - PlayerController
+    - StartMenu
+    - cameraController
+    - playerInteract
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
+    com.lightbug.character-controller-pro.dll:
+    - Lightbug.CharacterControllerPro.Core.CharacterActor
+    - Lightbug.CharacterControllerPro.Core.CharacterBody
+    - Lightbug.CharacterControllerPro.Core.CharacterTagsAndLayersProfile
+    - Lightbug.CharacterControllerPro.Core.SceneController
+    - Lightbug.CharacterControllerPro.Demo.Dash
+    - Lightbug.CharacterControllerPro.Demo.LadderClimbing
+    - Lightbug.CharacterControllerPro.Demo.LedgeHanging
+    - Lightbug.CharacterControllerPro.Demo.MaterialController
+    - Lightbug.CharacterControllerPro.Demo.MaterialsProperties
+    - Lightbug.CharacterControllerPro.Demo.NormalMovement
+    - Lightbug.CharacterControllerPro.Implementation.AnimatorLink
+    - Lightbug.CharacterControllerPro.Implementation.CharacterBrain
+    - Lightbug.CharacterControllerPro.Implementation.CharacterStateController
+  sceneClasses:
+    Assets/Scenes/Level 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11834}
+    - Class: 114
+      Script: {instanceID: 11944}
+    - Class: 114
+      Script: {instanceID: 12066}
+    - Class: 114
+      Script: {instanceID: 12182}
+    - Class: 114
+      Script: {instanceID: 12540}
+    - Class: 114
+      Script: {instanceID: 12554}
+    - Class: 114
+      Script: {instanceID: 12558}
+    - Class: 114
+      Script: {instanceID: 12598}
+    - Class: 114
+      Script: {instanceID: 12724}
+    - Class: 114
+      Script: {instanceID: 12794}
+    - Class: 114
+      Script: {instanceID: 12882}
+    - Class: 114
+      Script: {instanceID: 12898}
+    - Class: 114
+      Script: {instanceID: 12906}
+    - Class: 114
+      Script: {instanceID: 12908}
+    - Class: 114
+      Script: {instanceID: 13058}
+    - Class: 114
+      Script: {instanceID: 13076}
+    - Class: 114
+      Script: {instanceID: 13156}
+    - Class: 114
+      Script: {instanceID: 13180}
+    - Class: 114
+      Script: {instanceID: 13272}
+    - Class: 114
+      Script: {instanceID: 13336}
+    - Class: 114
+      Script: {instanceID: 13460}
+    - Class: 114
+      Script: {instanceID: 13576}
+    - Class: 114
+      Script: {instanceID: 13630}
+    - Class: 114
+      Script: {instanceID: 13648}
+    - Class: 114
+      Script: {instanceID: 13714}
+    - Class: 114
+      Script: {instanceID: 13774}
+    - Class: 114
+      Script: {instanceID: 14066}
+    - Class: 114
+      Script: {instanceID: 14088}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/Scenes/StartMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11834}
+    - Class: 114
+      Script: {instanceID: 12066}
+    - Class: 114
+      Script: {instanceID: 12540}
+    - Class: 114
+      Script: {instanceID: 12568}
+    - Class: 114
+      Script: {instanceID: 12582}
+    - Class: 114
+      Script: {instanceID: 13058}
+    - Class: 114
+      Script: {instanceID: 13336}
+    - Class: 114
+      Script: {instanceID: 13354}
+    - Class: 114
+      Script: {instanceID: 13576}
+    - Class: 114
+      Script: {instanceID: 13648}
+    - Class: 114
+      Script: {instanceID: 13834}
+    - Class: 114
+      Script: {instanceID: 14066}
+    - Class: 114
+      Script: {instanceID: 14106}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 23e909133e959f7ffc5800f46ce69279
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: Camera2D
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: MainMenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4298152c7490141086c39d1836a5a43a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: aa70aba484212f92b8a479f60b684b6e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: dec4266fba88a169b9631b73418724fb
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: CharacterGraphicsScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 2eed570daa767ba239879c5494a1b2ed
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: RigidbodyModifier
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: fd8b23ad3c9e81bc85b197495bc510ac
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 51a373b182dd3068d1cf461a32e3abbc
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: JetPack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: CharacterControllerProEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: AISequenceBehaviourEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5f206dd3b0d6b103c9456019be49d644
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Test
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e1ba080e0b81d315bbb14682ac70f9de
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: Dash
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.Utilities
+    className: SphereColliderComponent3D
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: ImplementationTools
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: cc10b0a6147c95ed4df95eec8baf8e87
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: FpsCounter
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 441f20aa5258b1edae4417aa27122f03
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: AddTorque2D
+  - hash:
+      serializedVersion: 2
+      Hash: 0d863adb0b285c93997bc338a7c975da
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: InputButton
+  - hash:
+      serializedVersion: 2
+      Hash: aa467f7ff6d31980f64cf2689f1ad073
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: LookAtTarget
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: cfa1adacbc1fbc354143b4173528275f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: LedgeHanging
+  - hash:
+      serializedVersion: 2
+      Hash: 3a80fa6713d3c827f3cebf60d6f94205
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: PerformanceDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 930b2a7c015542327cee6af349728cdd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
+      Hash: ee4a8927e158f01093ca9ff0900e5d87
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: CharacterDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 5cc439bf63c0539d39588e69465ac2ab
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 53fc828e860323660f0cd9e91a0b2691
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: CharacterActor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.Utilities
+    className: RigidbodyComponent3D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: AnimatorLink
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: MaterialsPropertiesEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 441f20aa5258b1edae4417aa27122f03
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: AddTorque3D
+  - hash:
+      serializedVersion: 2
+      Hash: e2b509c1cc3a9cd4d1f7f740bf415d0e
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: MaterialsProperties
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 4db1d3593f8c11cc3830020585d97fa0
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: Ladder
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 56def45b8f0b58ee16cb8ccf7d9d9635
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: LadderClimbing
+  - hash:
+      serializedVersion: 2
+      Hash: 968dc05134a61865929dd7e395b2e8ef
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: CharacterTagsAndLayersProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 35d742115e4776ee8fd15523c2c01f81
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: MaterialController
+  - hash:
+      serializedVersion: 2
+      Hash: a937b57b9690d1b309e6e25d7699215a
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: SceneController
+  - hash:
+      serializedVersion: 2
+      Hash: 1b9b67d9d86bd9756e73ab14eaba0c59
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: CharacterParticles
+  - hash:
+      serializedVersion: 2
+      Hash: 7927dd68b9c5cd3eb014f1800050f8a5
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: ActionBasedPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: ed1d550e648f438d95e57e97903897e7
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: DemoSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 82d6fd168096e6ac912f240e0ba76c95
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: VerticalDirectionModifier2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.Utilities
+    className: PhysicsComponent3D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: CharacterActionsAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f087c23fbfa15475a0d110af46fb0496
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: aafcd487148f75c4d74a6d8321f34ba4
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: NormalMovement
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: CharacterBodyEditor
+  - hash:
+      serializedVersion: 2
+      Hash: e822bf64ac8324d7669195bf1af1963c
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: CharacterActionsAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f8973d5ba3babbea921de597b57b7c29
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: NodeBasedPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: 82d6fd168096e6ac912f240e0ba76c95
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: VerticalDirectionModifier3D
+  - hash:
+      serializedVersion: 2
+      Hash: 8344c03babd531e6d8090c3f3aeea07d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: cameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 38327dcb51358f50fc06f30a94510dbc
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: AIWanderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BrokenVector.LowPolyFencePack
+    className: DoorToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.Utilities
+    className: CapsuleColliderComponent3D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: CharacterStateEditor
+  - hash:
+      serializedVersion: 2
+      Hash: ca07b290382062b5f0313562be6b365f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DestroyThis
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5580fbbe4b0495af75ac714b496597
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: CharacterGraphics2DRotator
+  - hash:
+      serializedVersion: 2
+      Hash: f7bb6096199e0cf058d5d69878184cf4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 344a8c2e106a0a4e098e91a52e0af063
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.Utilities
+    className: RigidbodyComponent2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.Utilities
+    className: PhysicsComponent2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: NodeBasedPlatformEditor
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 2e0617456ef7995d079420da481211e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BrokenVector.LowPolyFencePack
+    className: DoorController
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.Utilities
+    className: CapsuleColliderComponent2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4777b03664de10b13e071b081c28acab
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: CharacterStateController
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 24ce510b80d48694bdd3ceae622c61c7
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: MenuButton
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 436c86901fc6937826eca20b2a3b80c5
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: CharacterBody
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: UIInputHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: UnityInputHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 08d128842c981eee6738c9998dfd4a82
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: playerInteract
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.Utilities
+    className: SphereColliderComponent2D
+  - hash:
+      serializedVersion: 2
+      Hash: a2612813f45d0ced02c3e4bc9dbea8b4
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: c23c53e611d8e01b335da71be4bb97c9
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: AISequenceBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: c60c5cba0d5ed4f4a018240d6339217f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd689b29ca4e350893b80d82ac126b1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: rotatecamera
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 0ffaf073d4b1fa4e8036cf7ad52ddba7
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: f7167f221f7c9415e89b48fb40eddbf6
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: CharacterBrain
+  - hash:
+      serializedVersion: 2
+      Hash: 0c05f2bfb402def3f0a85a62a2323c7f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: CharacterBrainEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 2e932163af92485a91271c221c2a15a0
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: Camera3D
+  - hash:
+      serializedVersion: 2
+      Hash: 12e1c851b5a8598c9dcced0fb6ffda34
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Demo
+    className: AIFollowBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Core
+    className: KinematicPlatform
+  - hash:
+      serializedVersion: 2
+      Hash: b20249825bb061825a30e4bac800d7e6
+    assemblyName: com.lightbug.character-controller-pro.dll
+    namespaceName: Lightbug.CharacterControllerPro.Implementation
+    className: InputAxes
+  platform: 5
+  scenePathNames:
+  - Assets/Scenes/StartMenu.unity
+  - Assets/Scenes/Level 2.unity
+  playerPath: C:/Users/duran/Documents/David's Folder/SchoolWork/Fall 2020/CS448/Github/Corgi
+    Game.exe
