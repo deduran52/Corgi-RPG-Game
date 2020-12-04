@@ -12,9 +12,9 @@ public class DestroyThis : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && (guide.transform.position - thisObject.transform.position).sqrMagnitude < range * range)
+        if (Input.GetKeyDown(KeyCode.Q) && (guide.transform.position - thisObject.transform.position).sqrMagnitude < range * range)
         {
-            Destroy(thisObject);
+            thisObject.active = false;
         }
         
     }
